@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* fonts */
+    --font_crimson: 'Crimson Pro', serif;
+    --font_lora: 'Lora', serif;
+    --font_montserrat: 'Montserrat', sans-serif;
+    /* colors */
+    --color_black:#181719;
+    --color_white: #FFFFFF;
+    --color_grey: #A9A9A9;
+}
