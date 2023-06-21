@@ -8,24 +8,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Icons Files -->
+    <script src="https://kit.fontawesome.com/6d642dc6ea.js" crossorigin="anonymous"></script>
     <!-- Styles Files -->
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header class="head">
         <h1 class="title">This Interior</h1>
-        <ul class="list_nav">
-            <li class="item_list"><a href="#" class="link_item">Home</a></li>
-            <li class="item_list"><a href="#" class="link_item">Collection</a></li>
-            <li class="item_list"><a href="#" class="link_item">About</a></li>
-            <li class="item_list"><a href="#" class="link_item">Contact</a></li>
-        </ul>
+        <nav class="nav">
+            <i class="fa-solid fa-bars icon_bar"></i>
+            <ul class="list_nav">
+                <li class="item_list"><i class="fa-solid fa-x"></i></li>
+                <li class="item_list"><a href="#" class="link_item">Home</a></li>
+                <li class="item_list"><a href="#" class="link_item">Collection</a></li>
+                <li class="item_list"><a href="#" class="link_item">About</a></li>
+                <li class="item_list"><a href="#" class="link_item">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main class="main">
         <div class="content_children">
-            <h2 class="title_main">Modern</h2>
+            <h2 class="title_main">Modern interior</h2>
+            <p class="paragraph_main">A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+            <div class="icon_read">
+                <h4 class="read">Read more</h4>
+                <i class="fa-solid fa-arrow-right icon_arrow"></i>
+            </div>
         </div>
-        <div class="content_children"></div>
+        <div class="content_children">
+            <img src="photo1.png" alt="Imagen de sala" class="img_major">
+            <div class="container_follow">
+                <div class="container_face_name">
+                    <img src="photo2.png" alt="face to girld" class="face">
+                    <div class="name_occupation">
+                        <h5 class="name">Aliza Webber</h5>
+                        <h5 class="occupation">Interior designer</h5>
+                    </div>
+                </div>
+                <p class="paragraph_follow">Designed in 2020 by Aliza Webber</p>
+            </div>
+        </div>
     </main>
+    <footer class="footer">
+        <p class="copiryth">Created by Gonzalo Palma - <b class="company">GPTechnology</b></p>
+    </footer>
 </body>
 </html>

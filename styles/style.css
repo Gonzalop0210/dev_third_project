@@ -13,4 +13,126 @@
     --color_black:#181719;
     --color_white: #FFFFFF;
     --color_grey: #A9A9A9;
+    --color_grey_bar: #F2F2F2;
+    --color_grey_occupation: #828282;
+}
+
+.list_nav {
+    display: none;
+}
+
+body {
+    padding: 25px 0;
+    background-color: var(--color_black);
+    color: var(--color_white);
+}
+
+.head, .main {
+    padding: 0px 16px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: var(--font_crimson);
+    font-weight: 200;
+    font-size: 16px;
+    border: 2px solid var(--color_white);
+    padding: 5px 15px;
+    text-transform: uppercase;
+}
+
+.icon_bar {
+    font-size: 28px;
+}
+
+/* Main Styles */
+.title_main {
+    font-family: var(--font_lora);
+    font-weight: 500;
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+.paragraph_main {
+    font-family: var(--font_montserrat);
+    font-weight: 400;
+    font-size: 16px;
+    width: 70%;
+    margin: 30px 0;
+}
+
+.icon_read {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    font-family: var(--font_montserrat);
+}
+
+/* Img and Follower Styles */
+.img_major {
+    width: 100%;
+}
+
+.container_follow {
+    background-color: var(--color_black);
+    border: 2px solid wheat;
+    padding: 15px 10px;
+    display: inline-block;
+}
+
+.container_face_name {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.face {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.name {
+    font-family: var(--font_montserrat);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.occupation {
+    font-family: var(--font_montserrat);
+    font-weight: 500;
+    font-size: 10px;
+    color: var(--color_grey_occupation);
+}
+
+.paragraph_follow {
+    font-family: var(--font_lora);
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    position: fixed;
+    bottom: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.copiryth {
+    font-family: var(--font_montserrat);
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--color_grey_occupation);
+}
+
+.company {
+    font-weight: 500px;
 }
