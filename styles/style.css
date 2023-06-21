@@ -17,9 +17,45 @@
     --color_grey_occupation: #828282;
 }
 
-.list_nav {
+.disguise {
     display: none;
 }
+
+/* Nav Start */
+.list_nav {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color_black);
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.link_item {
+    color: var(--color_white);
+    text-decoration: none;
+    font-family: var(--font_montserrat);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.item_list:first-child {
+    margin-left: 16em;
+    margin-bottom: 8em;
+    font-size: 22px;
+}
+
+.item_list:nth-child(2) {
+    border-bottom: 4px solid var(--color_white);
+    font-weight: bold;
+}
+/* Nav End */
 
 body {
     padding: 25px 0;
